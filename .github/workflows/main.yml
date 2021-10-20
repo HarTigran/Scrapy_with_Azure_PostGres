@@ -26,7 +26,7 @@ jobs:
         
       - name: run scrapy 
         run: scrapy crawl exploit
-        working-directory: web
+        working-directory: ip_list
         
       - uses: Azure/login@v1
         with:
