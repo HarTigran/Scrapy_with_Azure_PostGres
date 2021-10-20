@@ -2,5 +2,3 @@
 -- CREATE DATABASE exploitdb ENCODING 'UTF8';
 
 -- CREATE TABLE IF NOT EXISTS exploits (id integer primary key,ip VARCHAR(60), Country TEXT);
-
-ALTER COLUMN id SET DEFAULT nextval('exploits');
